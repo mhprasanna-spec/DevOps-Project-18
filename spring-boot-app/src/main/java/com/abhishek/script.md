@@ -21,11 +21,6 @@
 > 6. *Verifies the rollout — if pods don't come up within 2 minutes, the pipeline fails and we're alerted*"
 
 ---
-
-## 3. Why K3s Instead of Minikube?
-
-> *"Minikube is great for local testing on a laptop, but K3s is much better for a project like this. K3s is a certified, production-grade Kubernetes distribution — lightweight, uses less RAM, and runs comfortably on a single EC2 t2.large. It gives me a realistic cluster experience rather than a sandbox. In an actual job, you're never going to use Minikube in production, so K3s is a much more honest representation of real-world Kubernetes."*
-
 ---
 
 ## 4. Why SonarQube? What Does It Check?
